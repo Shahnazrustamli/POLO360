@@ -1,17 +1,60 @@
 #container {
   max-width: 940px;
   margin: auto;
-  background-color: #fff;
 }
-header{
-    background: linear-gradient(#dadada, #fff, #fff, #fff, #fff);
-    height: 140px;
+header {
+  background: linear-gradient(#dadada, #fff, #fff, #fff, #fff);
+  padding: 37px 10px 23px 10px;
 }
-main{
-    height: 900px;
-    background-color: purple;
+nav a img {
+  width: 27%;
 }
-footer{
-    height: 140px;
-    background-color: #2d2424;
+.menu {
+  display: inline-block;
+  float: right;
+  padding: 15px 0 0 0;
+}
+menu {
+  padding: 20px 0 0 0;
+  display: none;
+}
+menu li {
+  display: inline-block;
+  font: 0.7em Tahoma;
+  color: #b7b7b7;
+  border-left: 1px dotted #000;
+  padding: 0 10px 10px 10px;
+}
+menu li a {
+  display: block;
+  color: #666666;
+  font: bold 0.9rem Georgia;
+}
+main {
+  height: 900px;
+  background: url("../img/blackBg.jpg") repeat-x;
+  padding: 22px 0 0 0;
+}
+#slider {
+  height: 340px;
+  background: url("../img/slide1.jpg") center/cover;
+  border-radius: 7px;
+  border: 1px solid #c6c6c6;
+  box-shadow: 0 4px 6px #898989;
+}
+footer {
+  height: 140px;
+  background-color: #2d2424;
+}
+@media only screen and (min-width: 768px) {
+  header {
+    padding: 37px 0 23px 0;
+  }
+  menu {
+    display: block;
+    float: right;
+  }
+  .menu {
+    display: none;
+  }
 }
