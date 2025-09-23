@@ -31,7 +31,7 @@ menu li a {
   font: bold 0.9rem Georgia;
 }
 main {
-  height: 900px;
+  /* height: 900px; */
   background: url("../img/blackBg.jpg") repeat-x;
   padding: 22px 0 0 0;
 }
@@ -41,6 +41,63 @@ main {
   border-radius: 7px;
   border: 1px solid #c6c6c6;
   box-shadow: 0 4px 6px #898989;
+}
+.main p {
+  font: bold 1.5em Georgia;
+  text-align: center;
+  padding: 20px 0 15px 0;
+}
+.image {
+  margin-top: 15px;
+  padding: 7px;
+  background: #f3f3f3;
+  border-radius: 3px;
+}
+.boxes {
+  min-height: 470px;
+  border-top: solid #e5e5e5;
+  border-bottom: solid #e5e5e5;
+  margin-bottom: 40px;
+}
+.boxes .box {
+  width: 300px;
+  margin: 35px 10px 20px 0;
+  display: inline-block;
+}
+.boxes .box h3 {
+  font: normal 1.3em Georgia;
+  color: #11719e;
+}
+.boxes .box p {
+  font: normal 0.8em "Helvetica";
+  color: #8c8c8c;
+}
+.boxes button {
+  border-radius: 3px;
+  border: 1px solid #d8d8d8;
+  padding: 10px;
+  font: normal 0.8em Helvetica;
+  color: #016999;
+  margin-bottom: 35px;
+  width: 160px;
+  text-align: left;
+  background: #dcdcdc;
+  background: radial-gradient(
+    circle,
+    rgba(220, 220, 220, 1) 0%,
+    rgba(245, 245, 245, 1) 50%,
+    rgba(220, 220, 220, 1) 100%
+  );
+}
+.boxes button img {
+  float: right;
+}
+.txt {
+  width: 291px;
+  height: 89px;
+  font: normal 0.8em Helvetica;
+  color: #3e3e3e;
+  margin: 15px 0 20px 0;
 }
 footer {
   height: 140px;
