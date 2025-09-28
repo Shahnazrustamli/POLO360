@@ -100,8 +100,24 @@ main {
   margin: 15px 0 20px 0;
 }
 footer {
-  height: 140px;
-  background-color: #2d2424;
+  height: 180px;
+  background-color: #333;
+  border-top: 10px solid #4c4c4c;
+  font: normal 0.7em Helvetica;
+  line-height: 10px;
+  color: #999999;
+  padding: 20px 0 0 0 ;
+}
+footer .left_box{
+  
+}
+footer .left_box ul li{
+  display: inline-block;
+
+}
+footer .right_box{
+  display: inline-block;
+  float: right;
 }
 @media only screen and (min-width: 768px) {
   header {
