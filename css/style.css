@@ -34,6 +34,7 @@ main {
   /* height: 900px; */
   background: url("../img/blackBg.jpg") repeat-x;
   padding: 22px 0 0 0;
+  /* clear: both; */
 }
 #slider {
   height: 340px;
@@ -60,7 +61,7 @@ main {
   margin-bottom: 40px;
 }
 .boxes .box {
-  width: 300px;
+  /* width: 33%; */
   margin: 35px 10px 20px 0;
   display: inline-block;
 }
@@ -101,21 +102,23 @@ main {
 }
 footer {
   height: 180px;
+  width: 100%;
+
   background-color: #333;
   border-top: 10px solid #4c4c4c;
   font: normal 0.7em Helvetica;
   line-height: 10px;
   color: #999999;
-  padding: 20px 0 0 0 ;
 }
-footer .left_box{
-  
-}
-footer .left_box ul li{
+footer .left_box ul li {
   display: inline-block;
-
 }
-footer .right_box{
+footer .left_box {
+  display: inline-block;
+  padding: 20px 0 0 0;
+}
+footer .right_box {
+  padding: 20px 0 0 0;
   display: inline-block;
   float: right;
 }
